@@ -2,7 +2,7 @@
 
 This project is a Docker-based deployment of the **vProfile** application, a multi-tier web application designed for DevOps training and practice.
 
-## í ½í´§ Technologies Used
+## ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Technologies Used
 - Docker & Docker Compose
 - Nginx
 - Tomcat (Java App)
@@ -10,9 +10,10 @@ This project is a Docker-based deployment of the **vProfile** application, a mul
 - Memcached
 - RabbitMQ / ActiveMQ
 
-## í ½í³ Folder Structure
+## ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Folder Structure
+Docker-files/ â”œâ”€â”€ app/ # Java-based application (Tomcat) â”œâ”€â”€ db/ # MySQL database setup â”œâ”€â”€ web/ # Nginx reverse proxy config docker-compose.yml
 
-## í ½íº€ How to Run
+## ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ How to Run
 
 Clone the repository and run:
 ```bash
